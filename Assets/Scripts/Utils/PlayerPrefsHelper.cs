@@ -7,7 +7,7 @@ public static class PlayerPrefsHelper
     public static void AddIntList(string key, int intToInsert)
     {
         string serialized = PlayerPrefs.GetString(key, "");
-        serialized = serialized != "" ? $"{serialized},{intToInsert}" : intToInsert.ToString() ;
+        serialized =  $"{serialized},{intToInsert}";
         PlayerPrefs.SetString(key, serialized);
         PlayerPrefs.Save();
     }
