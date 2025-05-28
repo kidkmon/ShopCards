@@ -48,7 +48,6 @@ public class CardPopupView : View<CardPopupViewController, CardPopupView>
     void OnBuyButtonClick()
     {
         OnPurchaseClicked?.Invoke(_config.Id);
-        OnCloseButton();
     }
 
     public void OnCloseButton()
@@ -56,4 +55,5 @@ public class CardPopupView : View<CardPopupViewController, CardPopupView>
         gameObject.SetActive(false);
     }
 
+    public int Price => _config.Price;
 }

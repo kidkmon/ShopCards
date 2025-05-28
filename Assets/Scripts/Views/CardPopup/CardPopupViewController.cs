@@ -1,3 +1,4 @@
+using UnityEngine;
 
 public class CardPopupViewController : ViewController<CardPopupView>
 {
@@ -7,7 +8,28 @@ public class CardPopupViewController : ViewController<CardPopupView>
         View.SetupButtonsHandlers();
     }
 
-    protected override void SetupEventHandlers() { }
+    protected override void SetupEventHandlers()
+    {
+        View.OnPurchaseClicked += OnPurchase;
+    }
 
-    protected override void RemoveEventHandlers() { }
+    protected override void RemoveEventHandlers()
+    { 
+        View.OnPurchaseClicked -= OnPurchase;
+    }
+
+    public void OnPurchase(int cardId)
+    {
+        if (CoinSystem.Instance.TryDeductCoin(View.Price))
+        {
+            Debug.Log($"Purchase successful! Card {cardId}.");
+        }
+        else
+        {
+            Debug.Log("Purchase failed! Not enough coins.");
+            // TODO Popup purchase failed
+        }
+
+        View.OnCloseButton();
+    }
 }
