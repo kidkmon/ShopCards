@@ -1,9 +1,14 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CardSectionsManager : MonoBehaviour
 {
+    [Header("Content Reference")]
+    [SerializeField] RectTransform _contentTransform;
+
     [Header("Card Popup")]
     [SerializeField] CardPopupView _cardPopup;
 
@@ -17,6 +22,7 @@ public class CardSectionsManager : MonoBehaviour
 
     void Awake()
     {
+        LayoutRebuilder.ForceRebuildLayoutImmediate(_contentTransform);
         InitializeCardConfigs();
         LoadCardConfigs();
 
@@ -25,6 +31,11 @@ public class CardSectionsManager : MonoBehaviour
             section.Setup(_cardConfigByType[section.CardType]);
             section.OnCardClick += OpenCardPopup;
         }
+    }
+
+    void Start()
+    {
+        StartCoroutine(UpdateLayout(_contentTransform));
     }
 
     void OnDestroy()
@@ -60,6 +71,12 @@ public class CardSectionsManager : MonoBehaviour
         {
             _cardConfigByType[config.CardType].Add(config);
         }
+    }
+
+    IEnumerator UpdateLayout(RectTransform rect)
+    {
+        yield return null;
+        LayoutRebuilder.ForceRebuildLayoutImmediate(rect);
     }
 
 }

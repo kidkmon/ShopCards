@@ -12,7 +12,6 @@ public class InventorySystem : Singleton<InventorySystem>
     public void Initialize()
     {
         _inventoryCards = new();
-        //ResetInventory();
     }
 
     #region Public Methods
