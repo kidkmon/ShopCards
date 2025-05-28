@@ -41,8 +41,9 @@ public class CoinSystem : Singleton<CoinSystem>
 
     public bool TryDeductCoin(int deductValue)
     {
-        if (_coins <= 0) return false;
-        SetCoins(_coins - deductValue);
+        int newCoinsValue = _coins - deductValue;
+        if (newCoinsValue <= 0) return false;
+        SetCoins(newCoinsValue);
         return true;
     }
 
