@@ -1,0 +1,2314 @@
+fileFormatVersion: 2
+guid: aa7756dfbd0353947acacd97097d307c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardBorders_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 210
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5353b2bc1eace3948a42b440d220e58f
+      internalID: 340332533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 210
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c466db85d8ea81b4b9ddb930cf6e7e77
+      internalID: -211997006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 210
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d335e2a509d2341acc8f30a9461e4e
+      internalID: 832627313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 210
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1453abbc7a662ef46a1c38c3850ca4ef
+      internalID: -1124114004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 210
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcd9e284b61d0345a494d802052610f
+      internalID: 1086509595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 210
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a90bb8ee3725948aeea62067560e48
+      internalID: 1121367024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 206
+        width: 76
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7191d62f88960db4088c9d5b87f8e2c1
+      internalID: -528724765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_7
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 288
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e41afb0e1976fb4b948cb386bd5670a
+      internalID: -1789483175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_8
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 297
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733ee1a6c88da3646bae545e0ede769a
+      internalID: 770224681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 303
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d419b992edebbe74183b0287a2d001c1
+      internalID: 536569320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_10
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 303
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447b036a439dc784ab441cac59025e85
+      internalID: 1915300647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_11
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ad71f71d70eb34d998a77ea9dfb2cf
+      internalID: 322582782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_12
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 303
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac9bb2d598d0904eba95fca543e9d7d
+      internalID: -1005991581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_13
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 303
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed54df0af124e34e9a94a1d63b84552
+      internalID: -2113080133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_14
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 296
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209d012cc1d850d41aae4731b8666ad1
+      internalID: 1228502056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_15
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 296
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5565495984db64e49b2c898a0a199071
+      internalID: -375835540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_16
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 295
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfae88ffd9c7cf04faebfb10857a01a4
+      internalID: 282352713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_17
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 295
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c226dcf36280c94c98480d44bcc41cc
+      internalID: 1311266725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_18
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 284
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2355055893733e43b1748aad3d2e436
+      internalID: 1489661089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 289
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb993c717306c6b4a87713e74d0c3420
+      internalID: -528739602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_20
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 289
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcab449c9be44714ab05a21593cbcf8a
+      internalID: -1362767717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_21
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 278
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82562b03165aece418a5a9125f019d42
+      internalID: 1555474609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_22
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 287
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8c34dd56c532843aca832cbdbb9968
+      internalID: -801807322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_23
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 287
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483f734b8c90534d8cb1800c7a79d55
+      internalID: -1046383554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_24
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 266
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4707542d409959744a1c99c622f6de6c
+      internalID: 29287638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_25
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 282
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a0e8ac73cb5e245836da97d34b66ea
+      internalID: -493589733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_26
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 282
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eecb94c0937d994c9301758a12954c5
+      internalID: -1039145445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_27
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 279
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f916d61f665570c439f919bbc5d8ece4
+      internalID: 2088863910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_28
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 279
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf3b3ede82314c438eb6e1b64332f81
+      internalID: 502692991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_29
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 271
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c55999b9d952147bd6fbe19e935b1e
+      internalID: 1506174987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_30
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 262
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b106911a30e85144ca087f59f2baf16b
+      internalID: 2006621615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_31
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 271
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c7e4df913cf074898daf352028ce3d
+      internalID: 2100485524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_32
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 271
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e3931f31f97b4eb120c3adc2f624e
+      internalID: 398361962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_33
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 244
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db67f0569eec254d8c5e4e8389334f7
+      internalID: 1064986082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_34
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 258
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b48c065acc3af40a6ad314d28f3850
+      internalID: -735660476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_35
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 263
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8670332d24e38142bc26a8f39bccd4c
+      internalID: -889608483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_36
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 263
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c7909dba8ceb1408b1d73f892176f5
+      internalID: 400566674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_37
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 245
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aff909785f30564a86b46a6a3b36a68
+      internalID: -1934650855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_38
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 246
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f0c4f34c6142458aed963332b9bae
+      internalID: -477710760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_39
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 255
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a85cace607ea64e8558e01a2a44743
+      internalID: 1145161783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_40
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 255
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689733b22ef98b1438d01caa6bd66255
+      internalID: -891313275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_41
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 247
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94902b2a4ddef5448fa7652527831b8
+      internalID: 1471753938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_42
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 247
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122c769327e4c314f89a8f19ce3d3b8b
+      internalID: 1052729280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_43
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 222
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7127d0b285953b840824675f5a4b5fa3
+      internalID: 1510045774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_44
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 232
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13ee3056d2cbb94e8e190c3dfbb705c
+      internalID: -244116721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_45
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 239
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a74241df0dbc904ba777533759dd834
+      internalID: -1352395948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_46
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 239
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9e54437c2fff74dba4cf9b4a894a6f
+      internalID: 831708575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_47
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 200
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cd49cb6616a894b9750224f75d89a9
+      internalID: -584161310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_48
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 219
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e73f3dd66285142a3348a577bb0298
+      internalID: -1828571386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_49
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 206
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00cd63af34ba7647b1add81034adb58
+      internalID: 1650698982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 107
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1984e62141d8604b80c04750bfcef16
+      internalID: -864803716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 107
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8773262e1010e6f41be9fe0bd6d4e622
+      internalID: -419829111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_52
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 107
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a494fb6cc2791124d920229559990b4a
+      internalID: -1642707174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_53
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 107
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654b45fff906f874b9a29f8f7f654392
+      internalID: 131062569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_54
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 107
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16194e4991791e94d9c8717928a322f1
+      internalID: -1545949145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_55
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 107
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f049c31a4692e445a00b2c859adfbec
+      internalID: 1741865283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_56
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 151
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7181d86bb19d74291a6867331d075d
+      internalID: 1788184296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_57
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 151
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683b309f90c1daa48861c93fd4510812
+      internalID: -1088956358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_58
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 168
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a580242f824fd44ab8eae898e7b318
+      internalID: 1447839004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_59
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 168
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98318c3044b256a4794692580a0c791c
+      internalID: -772020286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_60
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 190
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b8ae144621eb64899d8abbcd214759
+      internalID: 631678039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_61
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 178
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d8c4ab2e9acbe479911875a0dc76e4
+      internalID: -668247789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_62
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 193
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b915f4c85bfe41a9ac94ff4175894
+      internalID: -2054525046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_63
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 178
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e9688fb87ac124890777428a6b2cd4
+      internalID: -1511223131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_64
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 166
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c159adc1e66ad2499b4a43e1dafe881
+      internalID: 928807865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_65
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 156
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b12b54c6ef275a4182c807ff281d6e7
+      internalID: 2095385136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_66
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 136
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047ac62fca433bd4cbdcafcf7d5624d8
+      internalID: 738203799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_67
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 136
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde9e27beb9a0a44c849dad16b81d9c1
+      internalID: 1883153432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_68
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 154
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4288962f243b3b34fb1243e72af457ee
+      internalID: 1365326735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_69
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 109
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264b32959273c934eb873a1753617e8a
+      internalID: 1748149568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_70
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 109
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824bb504a2b9b004b98c2cb4268afe15
+      internalID: 1535752271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_71
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 134
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1a9094dd7065340bc3e865073a5549
+      internalID: -930739603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_72
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 100
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95109f0c8e05c644af5007e58bdf8f5
+      internalID: -1952157838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_73
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 100
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8054bdf10300df74eab0613fdc72f197
+      internalID: 1913231891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_74
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 124
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b42fbdf321b2d44a59f1b21e846539
+      internalID: -845444342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_75
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 112
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518c91155fd83a747b3585c58c8d93b7
+      internalID: 150775567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 112
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a236cc8b2d4a2429a9b92fb2fc0c61
+      internalID: -725435789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_77
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 100
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596eee9b41541a2499af70bef495868a
+      internalID: 1812514871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_78
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db78f6f26f18fce4c8c2947f9dec0a48
+      internalID: 1203810618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ced304ba4e65c448406e1caf908d2a
+      internalID: -347056787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_80
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c010da478771e4248bc00c3e509d7a2e
+      internalID: 1647615033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_81
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d488a8f1fc0d127419a6c5d8c2dd1100
+      internalID: 1535425631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_82
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3208d45c3e4e24bac2ff52dc2320ac
+      internalID: 1677229025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d95dad165d8c42428a21c524bbc4eba
+      internalID: -1567319338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_84
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 4
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfcf0229789eb742ad8b4c7cc4cfdba
+      internalID: 1901910693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_85
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 91
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b1262995a769144bf156d32e11fcd6
+      internalID: -272393777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_86
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 67
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b311dca99879e65428378b6ceb642769
+      internalID: 1862253426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_87
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 67
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5e4688bc74c4947beeb566b06e7ff4
+      internalID: 1206548299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_88
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 88
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e32662c22973d49a05667cd43b8c17
+      internalID: 918589903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_89
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 80
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab382abaef5d1ed4d9e4e83aeae26a15
+      internalID: -859643997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_90
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 68
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02100f291118f7640a13a32d9eb21ca2
+      internalID: -1967877808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_91
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 58
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60188042b7600f46b04559d777cb83f
+      internalID: -1471255625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_92
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 52
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91fa00a9bd3a054cbc3ffce62623fb2
+      internalID: 973693472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_93
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 47
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779e5b6d46b13d8428426e6e44346834
+      internalID: -1897524119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_94
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 41
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e916560e4fdae249ad3b7ac5bda2220
+      internalID: -1623438394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_95
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 35
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad82bcf66b6b5242a111c83ce42db34
+      internalID: 1786077725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_96
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 30
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ee6c0d73cea214f9ccdddc5bfb662d
+      internalID: -882631557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_97
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 17
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f2914dfa51e5348b0daa11da1d4853
+      internalID: -883460277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_98
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 206
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c6fd3a5450afd43aa0dd51f4ec4703
+      internalID: 908167109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardBorders_99
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 206
+        width: 75
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f22021e3158d0f4a9c243c04715f79f
+      internalID: -635715097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e03f94e5dc93a5849b1549c7accd9e29
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CardBorders_0: 340332533
+      CardBorders_1: -211997006
+      CardBorders_10: 1915300647
+      CardBorders_11: 322582782
+      CardBorders_12: -1005991581
+      CardBorders_13: -2113080133
+      CardBorders_14: 1228502056
+      CardBorders_15: -375835540
+      CardBorders_16: 282352713
+      CardBorders_17: 1311266725
+      CardBorders_18: 1489661089
+      CardBorders_19: -528739602
+      CardBorders_2: 832627313
+      CardBorders_20: -1362767717
+      CardBorders_21: 1555474609
+      CardBorders_22: -801807322
+      CardBorders_23: -1046383554
+      CardBorders_24: 29287638
+      CardBorders_25: -493589733
+      CardBorders_26: -1039145445
+      CardBorders_27: 2088863910
+      CardBorders_28: 502692991
+      CardBorders_29: 1506174987
+      CardBorders_3: -1124114004
+      CardBorders_30: 2006621615
+      CardBorders_31: 2100485524
+      CardBorders_32: 398361962
+      CardBorders_33: 1064986082
+      CardBorders_34: -735660476
+      CardBorders_35: -889608483
+      CardBorders_36: 400566674
+      CardBorders_37: -1934650855
+      CardBorders_38: -477710760
+      CardBorders_39: 1145161783
+      CardBorders_4: 1086509595
+      CardBorders_40: -891313275
+      CardBorders_41: 1471753938
+      CardBorders_42: 1052729280
+      CardBorders_43: 1510045774
+      CardBorders_44: -244116721
+      CardBorders_45: -1352395948
+      CardBorders_46: 831708575
+      CardBorders_47: -584161310
+      CardBorders_48: -1828571386
+      CardBorders_49: 1650698982
+      CardBorders_5: 1121367024
+      CardBorders_50: -864803716
+      CardBorders_51: -419829111
+      CardBorders_52: -1642707174
+      CardBorders_53: 131062569
+      CardBorders_54: -1545949145
+      CardBorders_55: 1741865283
+      CardBorders_56: 1788184296
+      CardBorders_57: -1088956358
+      CardBorders_58: 1447839004
+      CardBorders_59: -772020286
+      CardBorders_6: -528724765
+      CardBorders_60: 631678039
+      CardBorders_61: -668247789
+      CardBorders_62: -2054525046
+      CardBorders_63: -1511223131
+      CardBorders_64: 928807865
+      CardBorders_65: 2095385136
+      CardBorders_66: 738203799
+      CardBorders_67: 1883153432
+      CardBorders_68: 1365326735
+      CardBorders_69: 1748149568
+      CardBorders_7: -1789483175
+      CardBorders_70: 1535752271
+      CardBorders_71: -930739603
+      CardBorders_72: -1952157838
+      CardBorders_73: 1913231891
+      CardBorders_74: -845444342
+      CardBorders_75: 150775567
+      CardBorders_76: -725435789
+      CardBorders_77: 1812514871
+      CardBorders_78: 1203810618
+      CardBorders_79: -347056787
+      CardBorders_8: 770224681
+      CardBorders_80: 1647615033
+      CardBorders_81: 1535425631
+      CardBorders_82: 1677229025
+      CardBorders_83: -1567319338
+      CardBorders_84: 1901910693
+      CardBorders_85: -272393777
+      CardBorders_86: 1862253426
+      CardBorders_87: 1206548299
+      CardBorders_88: 918589903
+      CardBorders_89: -859643997
+      CardBorders_9: 536569320
+      CardBorders_90: -1967877808
+      CardBorders_91: -1471255625
+      CardBorders_92: 973693472
+      CardBorders_93: -1897524119
+      CardBorders_94: -1623438394
+      CardBorders_95: 1786077725
+      CardBorders_96: -882631557
+      CardBorders_97: -883460277
+      CardBorders_98: 908167109
+      CardBorders_99: -635715097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
