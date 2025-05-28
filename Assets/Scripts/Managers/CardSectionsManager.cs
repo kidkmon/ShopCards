@@ -22,7 +22,6 @@ public class CardSectionsManager : MonoBehaviour
 
     void Awake()
     {
-        LayoutRebuilder.ForceRebuildLayoutImmediate(_contentTransform);
         InitializeCardConfigs();
         LoadCardConfigs();
 
@@ -33,7 +32,7 @@ public class CardSectionsManager : MonoBehaviour
         }
     }
 
-    void Start()
+    void OnEnable()     
     {
         StartCoroutine(UpdateLayout(_contentTransform));
     }

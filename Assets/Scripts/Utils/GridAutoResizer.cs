@@ -23,18 +23,7 @@ public class GridAutoResizer : MonoBehaviour
                 childCount++;
         }
 
-        int columns = 1;
-
-        switch (_grid.constraint)
-        {
-            case GridLayoutGroup.Constraint.FixedColumnCount:
-                columns = _grid.constraintCount;
-                break;
-            case GridLayoutGroup.Constraint.FixedRowCount:
-                columns = Mathf.CeilToInt((float)childCount / _grid.constraintCount);
-                break;
-        }
-
+        int columns = 4;
         int rows = Mathf.CeilToInt((float)childCount / columns);
 
         float height = (rows * _grid.cellSize.y)

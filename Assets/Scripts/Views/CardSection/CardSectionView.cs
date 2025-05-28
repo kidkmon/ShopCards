@@ -52,4 +52,5 @@ public class CardSectionView : View<CardSectionViewController, CardSectionView>
     {
         RemoveCard(cardId);
     }
+    
 }
