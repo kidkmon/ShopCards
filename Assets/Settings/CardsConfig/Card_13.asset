@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A crystal blessed by the order of light. Boosts courage in times
     of despair.
-  _icon: {fileID: -1616891284, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1616891284, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

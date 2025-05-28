@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 1
   _description: A mysterious armor of unknown origin. Absorbs spells like echoes
     in a haunted hall.
-  _icon: {fileID: 156347340, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 156347340, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

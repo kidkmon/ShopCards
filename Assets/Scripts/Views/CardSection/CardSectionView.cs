@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,27 +9,39 @@ public class CardSectionView : View<CardSectionViewController, CardSectionView>
     [SerializeField] RectTransform _contentTransform;
     [SerializeField] GameObject _container;
     [SerializeField] GameObject _cardPrefab;
+
+    [Header("Card Settings")]
     [SerializeField] CardType _cardType;
+    [SerializeField] bool _canPurchase;
 
     List<CardView> _cards = new();
 
-    public IReadOnlyList<CardView> Cards => _cards;
     public CardType CardType => _cardType;
+    public bool CanPurchase => _canPurchase;
+
+    public event Action<CardPopupPayload> OnCardClick;
 
     public void AddCard(CardAssetConfig config)
     {
         var card = Instantiate(_cardPrefab, _container.transform).GetComponent<CardView>();
-        card.Setup(config);
+        card.Setup(config, _canPurchase, OnCardClick, OnPurchase);
         _cards.Add(card);
     }
 
-    public void RemoveCard(CardView card)
+    void RemoveCard(int id)
     {
-        if (_cards.Contains(card))
+        CardView cardToRemove = _cards.Find(card => card.Id == id);
+
+        if (cardToRemove != null)
         {
-            _cards.Remove(card);
-            Destroy(card);
+            _cards.Remove(cardToRemove);
+            Destroy(cardToRemove.gameObject);
         }
+    }
+
+    public void OnPurchase(int cardId)
+    {
+        RemoveCard(cardId);
     }
 
     private void OnEnable()

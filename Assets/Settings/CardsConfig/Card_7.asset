@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A cluster of sentient vines that protect sacred grounds. Strikes
     back when damaged.
-  _icon: {fileID: 1455128913, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 1455128913, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A fungal mask worn by mushroom cultists. Masks identity and protects
     from poison.
-  _icon: {fileID: 434101994, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 434101994, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

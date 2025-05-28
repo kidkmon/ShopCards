@@ -17,4 +17,4 @@ MonoBehaviour:
   _price: 10
   _cardType: 0
   _description: A battlefield charm from the fire plane. Glows with burning determination.
-  _icon: {fileID: -1758242849, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1758242849, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

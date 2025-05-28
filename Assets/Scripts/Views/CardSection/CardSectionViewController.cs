@@ -8,7 +8,7 @@ public class CardSectionViewController : ViewController<CardSectionView>
 
     void UpdateView()
     {
-        var cards = EnvironmentConfigs.Instance.CardsAssetCollection.GetConfigsByType(View.CardType);
+        var cards = EnvironmentConfigs.Instance.CardsAssetCollection.GetCardConfigsByType(View.CardType);
 
         foreach (var card in cards)
         {

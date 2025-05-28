@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 1
   _description: A fragile flower formed from frozen mana. Enhances frost magic when
     nurtured.
-  _icon: {fileID: 1956787857, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 1956787857, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

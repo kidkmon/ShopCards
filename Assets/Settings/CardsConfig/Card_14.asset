@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: Holds the memory of ancient ocean spirits. Amplifies water-aligned
     spells.
-  _icon: {fileID: -146984711, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -146984711, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8052962212298416956}
   - component: {fileID: 1164367273397419681}
   m_Layer: 5
-  m_Name: Card
+  m_Name: CardImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 3693181704331966133}
   - component: {fileID: 4456997482932242640}
   - component: {fileID: 252217415611189436}
+  - component: {fileID: 6723111288079411699}
   m_Layer: 5
   m_Name: CardPopup
   m_TagString: Untagged
@@ -151,6 +152,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6723111288079411699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2943534847584677166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165ac8f4023a2034383a5224170d37ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: {fileID: 1155245148664801783}
+  _description: {fileID: 1044693467633976551}
+  _priceText: {fileID: 7765214244122420968}
+  _cardImage: {fileID: 1164367273397419681}
+  _border: {fileID: 545590013785045395}
+  _buyButton: {fileID: 4336396461192160307}
+  _closeButton: {fileID: 3232419662983861703}
 --- !u!1 &3086181805236440290
 GameObject:
   m_ObjectHideFlags: 0

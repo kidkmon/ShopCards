@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 2
   _description: A mythical core of pure arcane matter. Grants immense magical surge
     when triggered.
-  _icon: {fileID: -1626195701, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1626195701, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

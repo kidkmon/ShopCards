@@ -96,6 +96,7 @@ MonoBehaviour:
   _container: {fileID: 8699524259535919145}
   _cardPrefab: {fileID: 6854719377258999202, guid: 257c4fb12bb477a488a09ed4ff3782a8, type: 3}
   _cardType: 0
+  _canPurchase: 1
 --- !u!1 &7990305038367637823
 GameObject:
   m_ObjectHideFlags: 0

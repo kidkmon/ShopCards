@@ -33,3 +33,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fe45467059abebf41af86c26016ef49f, type: 2}
   - {fileID: 11400000, guid: 159d16f98cfa82542beace7592d71688, type: 2}
   - {fileID: 11400000, guid: a2bb0a68f63d1b0489bde955fe7c6541, type: 2}
+  CardBorderAssetConfigs:
+  - {fileID: 11400000, guid: 73e15d47f54da194ca5f715c5f4eadc4, type: 2}
+  - {fileID: 11400000, guid: 042c4625f7be5234687e7eea0af7d1ef, type: 2}
+  - {fileID: 11400000, guid: 22129bf3e7d7eb447bce9c8613a29eb9, type: 2}

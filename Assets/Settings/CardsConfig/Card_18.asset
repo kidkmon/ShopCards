@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: Verdant and glowing, this prism channels the pulse of nature. Favored
     by druids.
-  _icon: {fileID: -417419558, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -417419558, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

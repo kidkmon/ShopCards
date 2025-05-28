@@ -5,12 +5,22 @@ using UnityEngine;
 public class CardsAssetCollection : ScriptableObject
 {
     [SerializeField] CardAssetConfig[] CardAssetConfigs;
+    [SerializeField] CardBorderAssetConfig[] CardBorderAssetConfigs;
 
     Dictionary<int, CardAssetConfig> _cardAssetConfigs;
+    Dictionary<CardType, CardBorderAssetConfig> _cardBorderAssetConfigs;
 
     public int Size => CardAssetConfigs.Length;
 
     public void Initialize()
+    {
+        InitializeCardAssetConfigs();
+        InitializeCardBorderAssetConfigs();
+    }
+
+    #region  Card Methods
+
+    void InitializeCardAssetConfigs()
     {
         _cardAssetConfigs = new Dictionary<int, CardAssetConfig>();
         foreach (var config in CardAssetConfigs)
@@ -19,12 +29,12 @@ public class CardsAssetCollection : ScriptableObject
         }
     }
 
-    public CardAssetConfig GetConfig(int id)
+    public CardAssetConfig GetCardConfig(int id)
     {
         return _cardAssetConfigs[id];
     }
 
-    public List<CardAssetConfig> GetConfigsByType(CardType type)
+    public List<CardAssetConfig> GetCardConfigsByType(CardType type)
     {
         List<CardAssetConfig> cards = new();
         foreach (var config in CardAssetConfigs)
@@ -34,7 +44,27 @@ public class CardsAssetCollection : ScriptableObject
                 cards.Add(config);
             }
         }
-        
+
         return cards;
     }
+
+    #endregion
+
+    #region Card Border Methods
+
+    void InitializeCardBorderAssetConfigs()
+    {
+        _cardBorderAssetConfigs = new Dictionary<CardType, CardBorderAssetConfig>();
+        foreach (var config in CardBorderAssetConfigs)
+        {
+            _cardBorderAssetConfigs.Add(config.CardType, config);
+        }
+    }
+
+    public CardBorderAssetConfig GetBorderConfig(CardType type)
+    {
+        return _cardBorderAssetConfigs[type];
+    }
+
+    #endregion
 }

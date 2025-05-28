@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 1
   _description: A dark relic humming with eldritch energy. Whispers forgotten truths
     to its wielder.
-  _icon: {fileID: 382497934, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 382497934, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

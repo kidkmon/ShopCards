@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 2
   _description: The living nucleus of an alien queen. Grants control over insect
     legions and hive minds.
-  _icon: {fileID: -915481408, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -915481408, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

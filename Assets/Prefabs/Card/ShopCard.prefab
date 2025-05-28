@@ -458,7 +458,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nameText: {fileID: 5534639290513750616}
-  _icon: {fileID: 664581904146462047}
+  _cardImage: {fileID: 664581904146462047}
+  _borderImage: {fileID: 8565200413541330201}
+  _cardButton: {fileID: 7010416819732573403}
   _priceText: {fileID: 1053158371156309115}
 --- !u!1 &7417013160845844664
 GameObject:

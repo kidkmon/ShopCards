@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A crimson gem burning with fury. Empowers offensive spells with reckless
     strength.
-  _icon: {fileID: -1321409885, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1321409885, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

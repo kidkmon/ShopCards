@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef8933dfcb4d66c439c3399a9cf14d8a, type: 3}
-  m_Name: Card_16
+  m_Script: {fileID: 11500000, guid: 0e0574d2a6075f54db129bd7acf257f1, type: 3}
+  m_Name: CommonBorder
   m_EditorClassIdentifier: 
-  _id: 16
-  _name: Prism of Echoes
-  _price: 10
   _cardType: 0
-  _description: Reflects arcane sounds from beyond. Useful for echo-based spellcasters.
-  _image: {fileID: 555623039, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _borderImage: {fileID: 1121367024, guid: aa7756dfbd0353947acacd97097d307c, type: 3}

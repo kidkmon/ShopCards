@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 1
   _description: A fiery relic worn by ancient kings of flame. Ignites the battlefield
     with burning power.
-  _icon: {fileID: -853038631, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -853038631, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

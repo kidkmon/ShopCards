@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 1
   _description: Forged in the breath of frost titans. Grants the bearer icy control
     and clarity.
-  _icon: {fileID: 1241691276, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 1241691276, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

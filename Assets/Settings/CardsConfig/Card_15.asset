@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A dark gem from cursed catacombs. Causes unease in those who gaze
     too long.
-  _icon: {fileID: 1659980771, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 1659980771, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

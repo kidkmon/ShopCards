@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A cursed staff from the swamp tribes. Weakens enemies over time with
     toxic energy.
-  _icon: {fileID: -1054399536, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1054399536, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

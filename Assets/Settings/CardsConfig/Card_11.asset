@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 2
   _description: A hatchling of the Sunspine dragon. Radiates heat and light, even
     in shadows.
-  _icon: {fileID: -1358633527, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1358633527, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

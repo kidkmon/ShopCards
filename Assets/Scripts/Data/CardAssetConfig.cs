@@ -15,7 +15,7 @@ public class CardAssetConfig : ScriptableObject
     [SerializeField] int _price;
     [SerializeField] CardType _cardType;
     [SerializeField] string _description;
-    [SerializeField] Sprite _icon;
+    [SerializeField] Sprite _image;
 
 
     public int Id => _id;
@@ -23,5 +23,5 @@ public class CardAssetConfig : ScriptableObject
     public int Price => _price;
     public CardType CardType => _cardType;
     public string Description => _description;
-    public Sprite Icon => _icon;
+    public Sprite Image => _image;
 }

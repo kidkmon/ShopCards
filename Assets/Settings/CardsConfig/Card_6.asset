@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 0
   _description: A decaying seed that never truly dies. Often found in cursed groves
     and plague lands.
-  _icon: {fileID: -1546179137, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: -1546179137, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}

@@ -18,4 +18,4 @@ MonoBehaviour:
   _cardType: 1
   _description: 'A sword bathed in eternal sunlight. Cuts through illusions and undead
     alike.  '
-  _icon: {fileID: 671176346, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
+  _image: {fileID: 671176346, guid: e6d5791a1a029104097276b6d1b24b53, type: 3}
