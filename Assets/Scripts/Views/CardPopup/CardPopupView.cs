@@ -11,19 +11,22 @@ public class CardPopupView : View<CardPopupViewController, CardPopupView>
     [SerializeField] TextMeshProUGUI _priceText;
     [SerializeField] Image _cardImage;
     [SerializeField] Image _border;
-    [SerializeField] Button _buyButton;
+    [SerializeField] Button _purchaseButton;
     [SerializeField] Button _closeButton;
 
     CardAssetConfig _config;
     bool _canPurchase;
 
-    public event Action<int> OnPurchaseClicked;
+    public Action<int> OnPurchaseButtonClicked;
+    public event Action<int> OnPurchaseSuccess;
+    public event Action OnPurchaseFailed;
 
     public void Setup(CardPopupPayload payload)
     {
         _config = payload.cardAssetConfig;
         _canPurchase = payload.canPurchase;
-        OnPurchaseClicked += payload.onPurchase;
+
+        OnPurchaseSuccess += payload.onPurchaseSuccess;
 
         SetupVisual();
     }
@@ -36,18 +39,28 @@ public class CardPopupView : View<CardPopupViewController, CardPopupView>
         _border.sprite = EnvironmentConfigs.Instance.CardsAssetCollection.GetBorderConfig(_config.CardType).BorderImage;
 
         _priceText.text = _config.Price.ToString();
-        _buyButton.gameObject.SetActive(_canPurchase);
+        _purchaseButton.gameObject.SetActive(_canPurchase);
     }
 
     public void SetupButtonsHandlers()
     {
-        if (_canPurchase) _buyButton.onClick.AddListener(OnBuyButtonClick);
+        if (_canPurchase) _purchaseButton.onClick.AddListener(OnPurchaseButtonClick);
         _closeButton.onClick.AddListener(OnCloseButton);
     }
 
-    void OnBuyButtonClick()
+    void OnPurchaseButtonClick()
     {
-        OnPurchaseClicked?.Invoke(_config.Id);
+        OnPurchaseButtonClicked?.Invoke(_config.Id);
+    }
+
+    public void OnSuccessPurchase()
+    {
+        OnPurchaseSuccess?.Invoke(_config.Id);
+    }
+
+    public void OnFailedPurchase()
+    {
+        OnPurchaseFailed?.Invoke();
     }
 
     public void OnCloseButton()

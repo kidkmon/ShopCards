@@ -37,7 +37,7 @@ public class CardView : View<CardViewController, CardView>
         {
             canPurchase = _canPurchase,
             cardAssetConfig = _config,
-            onPurchase = _onPurchase,
+            onPurchaseSuccess = _onPurchase,
         };
 
         _onCardButtonClicked?.Invoke(payload);

@@ -169,7 +169,7 @@ MonoBehaviour:
   _priceText: {fileID: 7765214244122420968}
   _cardImage: {fileID: 1164367273397419681}
   _border: {fileID: 545590013785045395}
-  _buyButton: {fileID: 4336396461192160307}
+  _purchaseButton: {fileID: 4336396461192160307}
   _closeButton: {fileID: 3232419662983861703}
 --- !u!1 &3086181805236440290
 GameObject:
@@ -319,7 +319,7 @@ GameObject:
   - component: {fileID: 4336396461192160307}
   - component: {fileID: 5808091726365863684}
   m_Layer: 5
-  m_Name: BuyButton
+  m_Name: PurchaseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

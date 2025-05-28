@@ -10,12 +10,12 @@ public class CardPopupViewController : ViewController<CardPopupView>
 
     protected override void SetupEventHandlers()
     {
-        View.OnPurchaseClicked += OnPurchase;
+        View.OnPurchaseButtonClicked += OnPurchase;
     }
 
     protected override void RemoveEventHandlers()
     { 
-        View.OnPurchaseClicked -= OnPurchase;
+        View.OnPurchaseButtonClicked -= OnPurchase;
     }
 
     public void OnPurchase(int cardId)
@@ -24,10 +24,12 @@ public class CardPopupViewController : ViewController<CardPopupView>
         {
             Debug.Log($"Purchase successful! Card {cardId}.");
             InventorySystem.Instance.AddInventoryCard(cardId);
+            View.OnSuccessPurchase();
         }
         else
         {
             Debug.Log("Purchase failed! Not enough coins.");
+            View.OnFailedPurchase();
             // TODO Popup purchase failed
         }
 

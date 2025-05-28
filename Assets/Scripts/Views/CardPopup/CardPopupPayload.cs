@@ -5,5 +5,6 @@ public class CardPopupPayload
 {
     public CardAssetConfig cardAssetConfig;
     public bool canPurchase;
-    public Action<int> onPurchase;
+    public Action<int> onPurchaseSuccess;
+    public Action onPurchaseFailed;
 }
