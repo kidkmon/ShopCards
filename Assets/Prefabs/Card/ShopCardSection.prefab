@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7983109168846539783}
   - component: {fileID: 962021861390669207}
   - component: {fileID: 1272481169270097895}
-  - component: {fileID: 1536445575252963146}
+  - component: {fileID: 867299768120456587}
   m_Layer: 5
   m_Name: ShopCardSection
   m_TagString: Untagged
@@ -80,7 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &1536445575252963146
+--- !u!114 &867299768120456587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

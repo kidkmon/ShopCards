@@ -14,17 +14,25 @@ public class CardSectionView : View<CardSectionViewController, CardSectionView>
     [SerializeField] CardType _cardType;
     [SerializeField] bool _canPurchase;
 
+    List<CardAssetConfig> _cardConfigs;
     List<CardView> _cards = new();
 
     public CardType CardType => _cardType;
     public bool CanPurchase => _canPurchase;
+    public List<CardAssetConfig> CardConfigs => _cardConfigs;
 
     public event Action<CardPopupPayload> OnCardClick;
+    public Action<CardAssetConfig> OnSectionUpdated;
+
+    public void Setup(List<CardAssetConfig> cardConfigs)
+    {
+        _cardConfigs = cardConfigs;
+    }
 
     public void AddCard(CardAssetConfig config)
     {
         var card = Instantiate(_cardPrefab, _container.transform).GetComponent<CardView>();
-        card.Setup(config, _canPurchase, OnCardClick, OnPurchase);
+        card.Setup(config, CanPurchase, OnCardClick, OnPurchase);
         _cards.Add(card);
     }
 

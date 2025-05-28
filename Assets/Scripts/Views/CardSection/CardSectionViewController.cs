@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 
 public class CardSectionViewController : ViewController<CardSectionView>
 {
@@ -6,18 +8,41 @@ public class CardSectionViewController : ViewController<CardSectionView>
         UpdateView();
     }
 
+    protected override void SetupEventHandlers()
+    {
+        View.OnSectionUpdated += AddNewCard;
+    }
+    protected override void RemoveEventHandlers()
+    {
+        View.OnSectionUpdated -= AddNewCard;
+    }
     void UpdateView()
     {
-        var cards = EnvironmentConfigs.Instance.CardsAssetCollection.GetCardConfigsByType(View.CardType);
+        var availableCards = GetAvailableCards();
 
-        foreach (var card in cards)
+        foreach (var card in availableCards)
         {
             View.AddCard(card);
         }
     }
 
+    List<CardAssetConfig> GetAvailableCards()
+    {
+        if (View.CanPurchase)
+        {
+            var allCardsByType = EnvironmentConfigs.Instance.CardsAssetCollection.GetCardConfigsByType(View.CardType);
+            List<CardAssetConfig> inventoryCards = View.CardConfigs;
+            List<CardAssetConfig> availableCards = allCardsByType.Except(inventoryCards).ToList();
 
-    protected override void SetupEventHandlers() { }
-    protected override void RemoveEventHandlers() { }
+            return availableCards;
+        }
+
+        return View.CardConfigs;
+    }
+
+    void AddNewCard(CardAssetConfig config)
+    {
+        View.AddCard(config);
+    }
 
 }

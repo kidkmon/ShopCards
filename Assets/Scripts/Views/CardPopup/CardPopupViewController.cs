@@ -23,6 +23,7 @@ public class CardPopupViewController : ViewController<CardPopupView>
         if (CoinSystem.Instance.TryDeductCoin(View.Price))
         {
             Debug.Log($"Purchase successful! Card {cardId}.");
+            InventorySystem.Instance.AddInventoryCard(cardId);
         }
         else
         {

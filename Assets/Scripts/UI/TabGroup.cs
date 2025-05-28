@@ -14,6 +14,8 @@ public class TabGroup : MonoBehaviour
     private List<TabButton> _tabButtons;
     private TabButton _currentTab;
 
+    public List<TabButton> TabButtons => _tabButtons;
+    
     void Start()
     {
         OnTabSelected(_tabButtons[0]);

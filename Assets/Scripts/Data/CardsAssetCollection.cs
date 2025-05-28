@@ -34,6 +34,19 @@ public class CardsAssetCollection : ScriptableObject
         return _cardAssetConfigs[id];
     }
 
+    public CardAssetConfig GetCardConfigById(int id)
+    {
+        foreach (var config in CardAssetConfigs)
+        {
+            if (config.Id == id)
+            {
+                return config;
+            }
+        }
+
+        return null;
+    }
+
     public List<CardAssetConfig> GetCardConfigsByType(CardType type)
     {
         List<CardAssetConfig> cards = new();

@@ -10,12 +10,19 @@ public class CardSectionsManager : MonoBehaviour
     [Header("Card Sections References")]
     [SerializeField] List<CardSectionView> _cardSections;
 
-    readonly Action<CardAssetConfig> OnCardClicked;
+    List<CardAssetConfig> _cardConfigs;
+    Dictionary<CardType, List<CardAssetConfig>> _cardConfigByType;
 
-    void Start()
+    public List<CardSectionView> CardSections => _cardSections;
+
+    void Awake()
     {
+        InitializeCardConfigs();
+        LoadCardConfigs();
+
         foreach (var section in _cardSections)
         {
+            section.Setup(_cardConfigByType[section.CardType]);
             section.OnCardClick += OpenCardPopup;
         }
     }
@@ -33,4 +40,26 @@ public class CardSectionsManager : MonoBehaviour
         _cardPopup.gameObject.SetActive(true);
         _cardPopup.Setup(cardPopupPayload);
     }
+
+    void InitializeCardConfigs()
+    {
+        _cardConfigs = new();
+        _cardConfigByType = new Dictionary<CardType, List<CardAssetConfig>>();
+
+        foreach (CardType type in Enum.GetValues(typeof(CardType)))
+        {
+            _cardConfigByType[type] = new List<CardAssetConfig>();
+        }
+    }
+
+    void LoadCardConfigs()
+    {
+        _cardConfigs = InventorySystem.Instance.LoadInventory();
+
+        foreach (var config in _cardConfigs)
+        {
+            _cardConfigByType[config.CardType].Add(config);
+        }
+    }
+
 }

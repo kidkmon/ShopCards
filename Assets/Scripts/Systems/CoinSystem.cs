@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class CoinSystem : Singleton<CoinSystem> {
+public class CoinSystem : Singleton<CoinSystem>
+{
     [HideInInspector] public UnityEvent<int> OnCoinUpdated;
 
     int _coins;
@@ -13,7 +14,8 @@ public class CoinSystem : Singleton<CoinSystem> {
         SetCoins(EnvironmentConfigs.Instance.GameConfig.InitialCoins);
     }
 
-    void Update() {
+    void Update()
+    {
         if (Input.GetKeyDown(KeyCode.Space)) // Simulate coin insertion
         {
             InsertCoins();
@@ -26,7 +28,8 @@ public class CoinSystem : Singleton<CoinSystem> {
         AddCoins(_insertedCoins);
     }
 
-    void SetCoins(int value) {
+    void SetCoins(int value)
+    {
         _coins = value;
         OnCoinUpdated?.Invoke(_coins);
     }
@@ -36,7 +39,8 @@ public class CoinSystem : Singleton<CoinSystem> {
     public int Coins => _coins;
     public void AddCoins(int value) => SetCoins(_coins + value);
 
-    public bool TryDeductCoin(int deductValue) {
+    public bool TryDeductCoin(int deductValue)
+    {
         if (_coins <= 0) return false;
         SetCoins(_coins - deductValue);
         return true;
