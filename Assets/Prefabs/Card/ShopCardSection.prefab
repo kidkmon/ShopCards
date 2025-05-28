@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1272481169270097895}
   - component: {fileID: 1536445575252963146}
   m_Layer: 5
-  m_Name: CardSection
+  m_Name: ShopCardSection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _contentTransform: {fileID: 7983109168846539783}
   _container: {fileID: 8699524259535919145}
-  _cardPrefab: {fileID: 6854719377258999202, guid: 31f684c11d86dba449be9fbc3b553ab1, type: 3}
+  _cardPrefab: {fileID: 6854719377258999202, guid: 257c4fb12bb477a488a09ed4ff3782a8, type: 3}
   _cardType: 0
 --- !u!1 &7990305038367637823
 GameObject:
@@ -240,7 +240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3359666813874061167}
   - component: {fileID: 1399881608859773948}
-  - component: {fileID: 229604434674513401}
+  - component: {fileID: 6669551208362783364}
   m_Layer: 5
   m_Name: CardGrid
   m_TagString: Untagged
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Spacing: {x: 18.7, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
---- !u!114 &229604434674513401
+--- !u!114 &6669551208362783364
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -23,4 +23,18 @@ public class CardsAssetCollection : ScriptableObject
     {
         return _cardAssetConfigs[id];
     }
+
+    public List<CardAssetConfig> GetConfigsByType(CardType type)
+    {
+        List<CardAssetConfig> cards = new();
+        foreach (var config in CardAssetConfigs)
+        {
+            if (config.CardType == type)
+            {
+                cards.Add(config);
+            }
+        }
+        
+        return cards;
+    }
 }
