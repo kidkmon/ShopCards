@@ -4,7 +4,7 @@ public class HomeTabGroup : TabGroup
 
     void Start()
     {
-        OnTabSelected(TabButtons[0]);
+        OnTabSelected(TabButtons[1]);
         InventorySystem.Instance.OnInventoryUpdated += SwitchToInventoryTab;
     }
 

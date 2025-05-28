@@ -23,16 +23,17 @@ public class CardPopupViewController : ViewController<CardPopupView>
         if (CoinSystem.Instance.TryDeductCoin(View.Price))
         {
             Debug.Log($"Purchase successful! Card {cardId}.");
-            InventorySystem.Instance.AddInventoryCard(cardId);
             View.OnSuccessPurchase();
+            InventorySystem.Instance.AddInventoryCard(cardId);
+            View.OnCloseButton();
         }
         else
         {
             Debug.Log("Purchase failed! Not enough coins.");
             View.OnFailedPurchase();
+            View.OnCloseButton();
+            ToastMessage.Instance.Show("Purchase Failed!\nNot enough coins.\nPress 'SPACE' to insert more coins.");
             // TODO Popup purchase failed
         }
-
-        View.OnCloseButton();
     }
 }
