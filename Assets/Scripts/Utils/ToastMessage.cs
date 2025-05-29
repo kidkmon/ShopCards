@@ -22,7 +22,7 @@ public class ToastMessage : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void Show(string message, float duration = 2f)
+    public void Show(string message, float duration = 1.5f)
     {
         _messageText.text = message;
         _canvasGroup.alpha = 0;

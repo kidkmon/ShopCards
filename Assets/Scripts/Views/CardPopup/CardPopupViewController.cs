@@ -25,8 +25,9 @@ public class CardPopupViewController : ViewController<CardPopupView>
             Debug.Log($"Purchase successful! Card {cardId}.");
             View.OnSuccessPurchase();
             InventorySystem.Instance.AddInventoryCard(cardId);
-            AudioManager.Instance.PlayBuyCardSound();
             View.OnCloseButton();
+            AudioManager.Instance.PlayBuyCardSound();
+            ToastMessage.Instance.Show("Purchase successful!");
         }
         else
         {
