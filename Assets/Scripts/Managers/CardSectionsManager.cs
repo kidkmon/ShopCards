@@ -47,6 +47,7 @@ public class CardSectionsManager : MonoBehaviour
 
     void OpenCardPopup(CardPopupPayload cardPopupPayload)
     {
+        AudioManager.Instance.PlayClickSound();
         _cardPopup.gameObject.SetActive(true);
         _cardPopup.Setup(cardPopupPayload);
     }

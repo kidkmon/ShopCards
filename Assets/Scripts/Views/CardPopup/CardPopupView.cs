@@ -65,6 +65,7 @@ public class CardPopupView : View<CardPopupViewController, CardPopupView>
 
     public void OnCloseButton()
     {
+        AudioManager.Instance.PlayClickSound();
         gameObject.SetActive(false);
     }
 
